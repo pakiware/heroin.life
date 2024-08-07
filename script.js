@@ -1,1 +1,174 @@
-function _0xd744(_0x642366,_0x5d3d2a){const _0x2f1fbc=_0x2f1f();return _0xd744=function(_0xd744ae,_0x159b12){_0xd744ae=_0xd744ae-0x11f;let _0xdb584f=_0x2f1fbc[_0xd744ae];return _0xdb584f;},_0xd744(_0x642366,_0x5d3d2a);}function _0x2f1f(){const _0x14d5f5=['click','block','#rotating-text\x20.text-item','addEventListener','active','DOMContentLoaded','fade-out-image','forEach','start-button','classList','textContent','bg-video','12447039cnTjFn','click-sound','style','8006EiKOSD','play','add','740UAMMMU','5144cjYSYb','playbackRate','Pause','aria-label','intro-screen','play-pause-button','24BjvkOS','speed','length','volume','target','pause','5617690hfnSpI','remove','786asvCkX','173jcpLBI','input','getElementById','display','6520fkXGNU','672LkYvDf','2785734ihymVf','fade-out','Play','value','106452hUlSGt','querySelectorAll','bg-audio','main-content'];_0x2f1f=function(){return _0x14d5f5;};return _0x2f1f();}const _0x56cff3=_0xd744;(function(_0x85e426,_0x181743){const _0x474ab6=_0xd744,_0x564612=_0x85e426();while(!![]){try{const _0x4cd2f1=parseInt(_0x474ab6(0x13a))/0x1*(-parseInt(_0x474ab6(0x127))/0x2)+-parseInt(_0x474ab6(0x139))/0x3*(parseInt(_0x474ab6(0x12b))/0x4)+-parseInt(_0x474ab6(0x137))/0x5+-parseInt(_0x474ab6(0x140))/0x6+parseInt(_0x474ab6(0x13f))/0x7*(parseInt(_0x474ab6(0x13e))/0x8)+-parseInt(_0x474ab6(0x144))/0x9*(-parseInt(_0x474ab6(0x12a))/0xa)+-parseInt(_0x474ab6(0x124))/0xb*(-parseInt(_0x474ab6(0x131))/0xc);if(_0x4cd2f1===_0x181743)break;else _0x564612['push'](_0x564612['shift']());}catch(_0x527a4c){_0x564612['push'](_0x564612['shift']());}}}(_0x2f1f,0x92524),document['addEventListener'](_0x56cff3(0x14d),()=>{const _0x331efe=_0x56cff3,_0x68abb5=document[_0x331efe(0x13c)](_0x331efe(0x120)),_0x10b276=document[_0x331efe(0x13c)](_0x331efe(0x12f)),_0xe223a6=document[_0x331efe(0x13c)](_0x331efe(0x147)),_0x5ba12d=document['getElementById']('bg-video'),_0x1f7a4c=document[_0x331efe(0x13c)](_0x331efe(0x146)),_0x978928=document[_0x331efe(0x13c)](_0x331efe(0x14e)),_0x14d381=document[_0x331efe(0x13c)](_0x331efe(0x125)),_0x25c21c=document[_0x331efe(0x13c)]('toggle-play-pause'),_0x7662dd=document[_0x331efe(0x13c)](_0x331efe(0x134)),_0x874b07=document['getElementById'](_0x331efe(0x132));_0x68abb5[_0x331efe(0x14b)](_0x331efe(0x148),()=>{const _0x1404f1=_0x331efe;_0x14d381[_0x1404f1(0x128)](),_0x978928[_0x1404f1(0x126)][_0x1404f1(0x13d)]=_0x1404f1(0x149),setTimeout(()=>{const _0x931551=_0x1404f1;_0x978928[_0x931551(0x121)][_0x931551(0x129)](_0x931551(0x141));},0x64),setTimeout(()=>{const _0x3b6bb7=_0x1404f1;_0x978928[_0x3b6bb7(0x126)][_0x3b6bb7(0x13d)]='none';},0x834),_0x10b276[_0x1404f1(0x126)][_0x1404f1(0x13d)]='none',_0xe223a6['style'][_0x1404f1(0x13d)]=_0x1404f1(0x149),_0x1f7a4c[_0x1404f1(0x128)](),_0x5ba12d[_0x1404f1(0x128)]();});let _0x1b291f=![];_0x7662dd['addEventListener'](_0x331efe(0x13b),_0x44014c=>{const _0x110319=_0x331efe,_0x3cdc2c=_0x44014c[_0x110319(0x135)]['value'];_0x1f7a4c[_0x110319(0x134)]=_0x3cdc2c;}),_0x874b07[_0x331efe(0x14b)](_0x331efe(0x13b),_0x3bf5bd=>{const _0x5b922b=_0x331efe,_0x7d380=_0x3bf5bd['target'][_0x5b922b(0x143)];_0x5ba12d[_0x5b922b(0x12c)]=_0x7d380,_0x1f7a4c[_0x5b922b(0x12c)]=_0x7d380;});}),document[_0x56cff3(0x14b)](_0x56cff3(0x14d),function(){const _0x3391b5=_0x56cff3,_0x53289b=document[_0x3391b5(0x145)](_0x3391b5(0x14a));let _0x15199d=0x0;function _0xcea050(){const _0x2084b9=_0x3391b5;_0x53289b[_0x2084b9(0x11f)]((_0x3d0774,_0x27399f)=>{const _0x4da00b=_0x2084b9;_0x3d0774[_0x4da00b(0x121)][_0x4da00b(0x138)](_0x4da00b(0x14c)),_0x27399f===_0x15199d&&_0x3d0774['classList']['add'](_0x4da00b(0x14c));}),_0x15199d=(_0x15199d+0x1)%_0x53289b[_0x2084b9(0x133)];}_0xcea050(),setInterval(_0xcea050,0xbb8);}),document[_0x56cff3(0x14b)](_0x56cff3(0x14d),function(){const _0x1e8445=_0x56cff3,_0x1837a1=document[_0x1e8445(0x13c)](_0x1e8445(0x130)),_0x114340=document[_0x1e8445(0x13c)](_0x1e8445(0x123)),_0x34949c=document[_0x1e8445(0x13c)]('bg-audio');_0x114340[_0x1e8445(0x136)](),_0x34949c['pause'](),_0x1837a1[_0x1e8445(0x14b)](_0x1e8445(0x148),function(){const _0x3b34de=_0x1e8445;_0x114340['paused']?(_0x114340[_0x3b34de(0x128)](),_0x34949c[_0x3b34de(0x128)](),_0x1837a1[_0x3b34de(0x122)]=_0x3b34de(0x12d),_0x1837a1['setAttribute']('aria-label',_0x3b34de(0x12d))):(_0x114340['pause'](),_0x34949c[_0x3b34de(0x136)](),_0x1837a1[_0x3b34de(0x122)]='Play',_0x1837a1['setAttribute'](_0x3b34de(0x12e),_0x3b34de(0x142)));}),document[_0x1e8445(0x13c)](_0x1e8445(0x134))[_0x1e8445(0x14b)]('input',function(){const _0x24c79d=_0x1e8445;_0x114340[_0x24c79d(0x134)]=this[_0x24c79d(0x143)],_0x34949c[_0x24c79d(0x134)]=this[_0x24c79d(0x143)];}),document[_0x1e8445(0x13c)](_0x1e8445(0x132))[_0x1e8445(0x14b)](_0x1e8445(0x13b),function(){const _0xec0a00=_0x1e8445;_0x114340['playbackRate']=this[_0xec0a00(0x143)],_0x34949c[_0xec0a00(0x12c)]=this[_0xec0a00(0x143)];});}));
+document.addEventListener('DOMContentLoaded', () => {
+    const startButton = document.getElementById('start-button');
+    const introScreen = document.getElementById('intro-screen');
+    const mainContent = document.getElementById('main-content');
+    const bgVideo = document.getElementById('bg-video');
+    const bgAudio = document.getElementById('bg-audio');
+    const fadeOutImage = document.getElementById('fade-out-image');
+    const clickSound = document.getElementById('click-sound');
+    const togglePlayPauseButton = document.getElementById('toggle-play-pause');
+    const volumeControl = document.getElementById('volume');
+    const speedControl = document.getElementById('speed');
+
+    // Start button click event
+    startButton.addEventListener('click', () => {
+        clickSound.play(); // Play the click sound
+
+        // Show the fade-out image
+        fadeOutImage.style.display = 'block';
+
+        // Start the fade-out animation
+        setTimeout(() => {
+            fadeOutImage.classList.add('fade-out');
+        }, 100); // Slight delay to ensure display block
+
+        // Remove the image after the fade-out transition completes
+        setTimeout(() => {
+            fadeOutImage.style.display = 'none';
+        }, 2100); // 2 seconds for the fade-out effect + 100ms delay
+
+        // Hide the intro screen and show the main content
+        introScreen.style.display = 'none';
+        mainContent.style.display = 'block';
+
+        // Play the background audio and video
+        bgAudio.play();
+        bgVideo.play();
+    });
+
+    // Media player controls
+    let isPlaying = false;
+
+    volumeControl.addEventListener('input', (event) => {
+        const volume = event.target.value;
+        bgAudio.volume = volume;
+    });
+
+    speedControl.addEventListener('input', (event) => {
+        const speed = event.target.value;
+        bgVideo.playbackRate = speed;
+        bgAudio.playbackRate = speed;
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const textItems = document.querySelectorAll('#rotating-text .text-item');
+    let currentIndex = 0;
+
+    function switchText() {
+        textItems.forEach((item, index) => {
+            item.classList.remove('active');
+            if (index === currentIndex) {
+                item.classList.add('active');
+            }
+        });
+        currentIndex = (currentIndex + 1) % textItems.length;
+    }
+
+    // Start switching text every 3 seconds
+    switchText(); // Show the first item immediately
+    setInterval(switchText, 3000); // Switch text every 3 seconds
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const playPauseButton = document.getElementById('play-pause-button');
+    const video = document.getElementById('bg-video');
+    const audio = document.getElementById('bg-audio');
+    
+    // Ensure video and audio are paused when the page loads
+    video.pause();
+    audio.pause();
+
+    playPauseButton.addEventListener('click', function() {
+        if (video.paused) {
+            video.play();
+            audio.play();
+            playPauseButton.textContent = 'Pause';
+            playPauseButton.setAttribute('aria-label', 'Pause');
+        } else {
+            video.pause();
+            audio.pause();
+            playPauseButton.textContent = 'Play';
+            playPauseButton.setAttribute('aria-label', 'Play');
+        }
+    });
+
+    // Update volume and speed controls
+    document.getElementById('volume').addEventListener('input', function() {
+        video.volume = this.value;
+        audio.volume = this.value;
+    });
+
+    document.getElementById('speed').addEventListener('input', function() {
+        video.playbackRate = this.value;
+        audio.playbackRate = this.value;
+    });
+});
+
+document.querySelectorAll('.link-buttons a').forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default anchor behavior
+
+      // Get the text to copy from data attribute
+      var textToCopy = link.getAttribute('data-copy-text');
+
+      // Create a temporary input element to copy text
+      var tempInput = document.createElement('input');
+      document.body.appendChild(tempInput);
+      tempInput.value = textToCopy;
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+    });
+  });
+
+  document.querySelectorAll('.link-buttons a').forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default anchor behavior
+
+      // Get the text to copy from data attribute
+      var textToCopy = link.getAttribute('data-copy-text');
+
+      // Create a temporary input element to copy text
+      var tempInput = document.createElement('input');
+      document.body.appendChild(tempInput);
+      tempInput.value = textToCopy;
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const startButton = document.getElementById('start-button');
+    const playPauseButton = document.getElementById('play-pause-button');
+    const introScreen = document.getElementById('intro-screen');
+    const mainContent = document.getElementById('main-content');
+
+    startButton.addEventListener('click', function () {
+        introScreen.style.display = 'none'; // Hide the intro screen
+        mainContent.style.display = 'flex'; // Show the main content
+        playPauseButton.style.display = 'block'; // Show the pause button
+    });
+
+    // Add functionality for the pause button if needed
+    playPauseButton.addEventListener('click', function () {
+        // Toggle play/pause functionality here
+        const video = document.getElementById('bg-video');
+        const audio = document.getElementById('bg-audio');
+        if (video.paused) {
+            video.play();
+            audio.play();
+            playPauseButton.textContent = 'Pause';
+        } else {
+            video.pause();
+            audio.pause();
+            playPauseButton.textContent = 'Play';
+        }
+    });
+});
+
+window.addEventListener('load', function() {
+    var startButton = document.getElementById('start-button');
+    startButton.style.background = 'rgba(255, 255, 255, 0.2)';
+});
