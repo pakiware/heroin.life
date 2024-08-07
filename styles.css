@@ -1,0 +1,294 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Intro Screen */
+#intro-screen {
+    text-align: center;
+    margin: 0;
+    color: #000000;
+}
+
+/* Start Button */
+#start-button {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#start-button:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+/* Glass Effect Containers */
+.glass-container, .new-glass-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Profile Picture */
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.text-item {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.text-item.show {
+    opacity: 1;
+}
+
+/* New Glass Effect Container */
+.new-glass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Link Buttons */
+.link-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.link-buttons a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.link-buttons a:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: #000000;
+}
+
+/* Media Player */
+.media-player {
+    margin: 20px;
+    text-align: center;
+}
+
+#play-pause-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#play-pause-button:hover {
+    background: rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+/* Media Elements */
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure it’s behind other content */
+    pointer-events: none; /* Allow clicks to pass through */
+}
+
+/* Fade-Out Image */
+#fade-out-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Adjusted width */
+    height: 300px; /* Adjusted height */
+    display: none;
+    z-index: 4; /* Ensure it’s above everything else except the button */
+    transition: opacity 3s ease-out; /* Fading out effect */
+}
+
+/* Intro Screen Centering */
+#intro-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Main Content Centering */
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: Light background for contrast */
+  }
+  
+  /* Button Styles */
+  .link-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .link-buttons a {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    background-color: rgba(185, 185, 185, 0.5)
+  }
+  
+  .link-buttons a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Rotating Text Styles */
+  #rotating-text {
+    position: relative;
+    width: 500px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow to only show one item at a time */
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff00; /* Optional: Background for visibility */
+    border: 1px solid #dddddd00; /* Optional: Border for visibility */
+    margin-left: 40px; /* Move text container to the right */
+  }
+
+  
+  .text-item {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  @keyframes rotateText {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    25% { opacity: 1; }
+    35% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  
+  .text-item:nth-child(1) {
+    animation: rotateText 10s infinite;
+  }
+  
+  .text-item:nth-child(2) {
+    animation: rotateText 10s infinite 2.5s; /* Adjust timing to rotate items */
+  }
+  
+  .text-item:nth-child(3) {
+    animation: rotateText 10s infinite 5s; /* Adjust timing to rotate items */
+  }
+  
+  .text-item:nth-child(4) {
+    animation: rotateText 10s infinite 7.5s; /* Adjust timing to rotate items */
+  }
+  
+  /* Glass Effect Content */
+.glass-container h1 {
+    color: #ffffff; /* Change this to your desired color */
+}
+
+/* Rotating Text Styles */
+#rotating-text {
+    position: relative;
+    width: 500px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow to only show one item at a time */
+    display: flex;
+    justify-content: center;
+    background-color: #00000000; /* Transparent background */
+    border: 1px solid #dddddd00; /* Transparent border */
+    margin-left: 40px; /* Move text container to the right */
+}
+
+.text-item {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    white-space: nowrap; /* Prevent text wrapping */
+    color: #ffffff; /* Change this to your desired color */
+}
+
+@keyframes rotateText {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    25% { opacity: 1; }
+    35% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.text-item:nth-child(1) {
+    animation: rotateText 10s infinite;
+}
+
+.text-item:nth-child(2) {
+    animation: rotateText 10s infinite 2.5s;
+}
+
+.text-item:nth-child(3) {
+    animation: rotateText 10s infinite 5s;
+}
+
+.text-item:nth-child(4) {
+    animation: rotateText 10s infinite 7.5s;
+}
+
